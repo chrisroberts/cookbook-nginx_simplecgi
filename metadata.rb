@@ -7,7 +7,7 @@ version          "0.1.0"
 
 supports 'ubuntu'
 
-%w{ nginx perl runit bluepill }.each do |dep|
+%w{ chef_nginx perl runit bluepill }.each do |dep|
   depends dep
 end
 
